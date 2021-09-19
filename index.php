@@ -21,13 +21,13 @@
                 <form action="assinatura.php" method="post">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                       <label class="mdl-textfield__label">Nome: </label> 
-                      <input class="mdl-textfield__input" pattern"^[a-zA-Z][a-zA-Z-_\.]$" name="nome" id="nome" type="text" value="" size=""/> 
-                    <br/ >
+                      <input class="mdl-textfield__input" pattern="^[a-zA-Z][a-zA-Z-_\.]$" name="nome" id="nome" type="text" value="" size=""/> 
+                    <br />
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                       <label class="mdl-textfield__label">Setor: </label> 
-                      <input  class="mdl-textfield__input" pattern"^[a-zA-Z][a-zA-Z-_\.]$" name="setor" type="text" value="" size=""/> 
-                    <br/ >
+                      <input  class="mdl-textfield__input" pattern="^[a-zA-Z][a-zA-Z-_\.]$" name="setor" type="text" value="" size=""/> 
+                    <br />
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
                       <label class="mdl-textfield__label">Ramal: </label> 
